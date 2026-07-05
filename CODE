@@ -1,0 +1,9 @@
+SELECT 
+    AVG(ajio_mrp - tp) AS Avg_Ajio_Profit,
+    AVG(amazon_mrp - tp) AS Avg_Amazon_Profit,
+    AVG(flipkart_mrp - tp) AS Avg_Flipkart_Profit,
+    AVG(limeroad_mrp - tp) AS Avg_Limeroad_Profit,
+    AVG(myntra_mrp - tp) AS Avg_Myntra_Profit,
+    AVG(paytm_mrp - tp) AS Avg_Paytm_Profit,
+    AVG(snapdeal_mrp - tp) AS Avg_Snapdeal_Profit
+FROM May2022;
